@@ -56,5 +56,11 @@
     "ts-node": "^10.9.1",
     "tslint": "^6.1.3",
     "typescript": "~5.5.4"
+  },
+  "overrides": {
+    "@formio/angular": {
+      "zone.js": "$zone.js",
+      "@formio/js": "$@formio/js"
+    }
   }
 }
