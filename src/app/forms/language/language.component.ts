@@ -1,5 +1,6 @@
 import { Component, EventEmitter } from '@angular/core';
-import { FormioOptions, FormioAppConfig } from '@formio/angular';
+import { AngularFormioOptions, FormioAppConfig } from '@formio/angular';
+import { Webform } from "@formio/js";
 
 @Component({
     selector: 'app-language',
@@ -9,7 +10,7 @@ import { FormioOptions, FormioAppConfig } from '@formio/angular';
 })
 export class LanguageComponent {
   public language: EventEmitter<string>;
-  public options: FormioOptions;
+  public options: Webform['options'] & AngularFormioOptions;
 
   /* tslint:disable:max-line-length */
   constructor(public config: FormioAppConfig) {
