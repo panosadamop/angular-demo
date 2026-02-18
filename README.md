@@ -1,3 +1,8 @@
+> [!IMPORTANT]
+> This repo has been archived and is no longer being updated and maintained.
+>
+> Form.io is comitted to keeping our [Angular Library](https://github.com/formio/angular) updated and maintained, so please go to [https://github.com/formio/angular](https://github.com/formio/angular) to understand how Form.io can be embedded within an Angular application. We also recommend going to our [Form.io Angular Help Documentation](https://help.form.io/developers/javascript-development/frameworks#angular) to understand how to build an Angular application using the Form.io angular module.
+
 # Angular + Form.io Demo
 
 This project provides an Angular demonstration with Form.io platform.
